@@ -1,27 +1,27 @@
-# Tiketo
+# tiketo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.1.
+Ticketing tool for teams who believes in team work.
 
-## Development server
+## About
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Various ticketing tools were available in the market for teams. Here we provide a simple tool built in Angular, ExpressJS and Node stack which enables developers to deliver patches in confidence and project managers to commit proper timelines.
 
-## Code scaffolding
+## Usage
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+git clone https://github.com/edwinforedwin/tiketo.git
 
-## Build
+cd tiketo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+npm install
 
-## Running unit tests
+ng serve
+```
+Upon completing the above steps, tiketo is running in your localhost:4200
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Contributing
 
-## Running end-to-end tests
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Please make sure to update tests as appropriate.
