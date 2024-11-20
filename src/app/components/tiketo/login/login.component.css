@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: rgb(109, 195, 219);
+}
+.logincontainer{
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(17, 129, 194);
+    height: 28rem;
+    border-radius: 2rem;
+    background: white;
+}
+.logocontainer{
+    width: 24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fieldcontainer{
+    width: 24rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.inputcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+img {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+.logocontainer img {
+    flex-shrink: 0;
+    min-width: 100%;
+    max-width: 100%;
+}
+.apptitle {
+    font-size: 1.75rem;
+    font-weight: bolder;
+}
+input {
+    text-align: center;
+}
+::ng-deep .p-inputtext{
+    width: 18rem;
+    border: 1px solid rgb(17, 129, 194);
+}
+::ng-deep .p-button {
+    width: 7.5rem;
+}
