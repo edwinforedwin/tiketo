@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
     border: 1px solid rgb(17, 129, 194);
-    height: 28rem;
+    height: 26rem;
     border-radius: 2rem;
     background: white;
 }
@@ -36,7 +36,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.25rem;
 }
 img {
     min-width: 100%;
@@ -50,16 +50,28 @@ img {
     max-width: 100%;
 }
 .apptitle {
-    font-size: 1.75rem;
+    font-size: 2.75rem;
     font-weight: bolder;
+    font-family: 'Trebuchet MS';
+    color: rgb(61, 89, 189);
 }
 input {
     text-align: center;
 }
+.slogan {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 0.85rem;
+    font-family: 'Trebuchet MS';
+}
 ::ng-deep .p-inputtext{
     width: 18rem;
     border: 1px solid rgb(17, 129, 194);
+    height: 2rem;
+    font-family: 'Trebuchet MS';
 }
 ::ng-deep .p-button {
     width: 7.5rem;
+    background: rgb(5, 94, 190);
+    font-family: 'Trebuchet MS';
 }
