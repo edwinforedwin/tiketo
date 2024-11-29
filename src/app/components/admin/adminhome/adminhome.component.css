@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%s;
+}
+.topbar {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(111, 172, 243);
+    align-items: center;
+}
+.menubar {
+    height: 10%;
+    width: 100%;
+}
+.component {
+    height: 75%;
+}
+.footer {
+    height: 5%;
+    background: rgb(111, 172, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    font-family: 'Trebuchet MS';
+}
+.apptitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.user {
+    font-size: 0.9rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+::ng-deep .p-menuitem {
+    width: 15rem;
+}
+::ng-deep .p-menuitem-text {
+    color: black;
+    font-family: 'Trebuchet MS';
+    font-size: 0.8rem;
+}

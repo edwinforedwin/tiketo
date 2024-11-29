@@ -1,1 +1,19 @@
-<p>adminhome works!</p>
+<div class="container">
+    <div class="topbar">
+        <div class="apptitle text">
+            tiketo
+        </div>
+        <div class="user text">
+            Edwin U Kannanaikkal
+        </div>
+    </div>
+    <div class="menubar">
+        <p-menubar [model]="menuItems" />
+    </div>
+    <div class="component">
+        <router-outlet></router-outlet>
+    </div>
+    <div class="footer">
+        <div class="text">Version 1.0.0</div>
+    </div>
+</div>
