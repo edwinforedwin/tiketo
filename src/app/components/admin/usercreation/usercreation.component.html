@@ -1,8 +1,34 @@
 <div class="container">
-    <div>
-        <p-floatLabel>
-            <input type="text" pInputText id="userfullname"/>
-            <label for="userfullname">User Full Name</label>
-        </p-floatLabel>
+    <div class="section one">
+        User Creation
+    </div>
+    <div class="section two">
+        <div>
+            <p-floatLabel>
+                <input type="text" pInputText id="userfullname"/>
+                <label for="userfullname">Full Name</label>
+            </p-floatLabel>
+        </div>
+        <div>
+            <p-floatLabel>
+                <input type="text" pInputText id="useraddress" [style]="{width:'25rem'}"/>
+                <label for="useraddress">Address</label>
+            </p-floatLabel>
+        </div>
+        <div>
+            <p-floatLabel>
+                <input type="text" pInputText id="useremail" [style]="{width:'18rem'}"/>
+                <label for="useremail">Email</label>
+            </p-floatLabel>
+        </div>
+        <div>
+            <p-floatLabel>
+                <input type="text" pInputText id="userphone"/>
+                <label for="userphone">Mobile Number</label>
+            </p-floatLabel>
+        </div>
+    </div>
+    <div class="section three">
+        <p-button label="Create"/>
     </div>
 </div>

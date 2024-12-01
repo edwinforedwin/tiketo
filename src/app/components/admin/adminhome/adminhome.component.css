@@ -9,7 +9,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background: rgb(111, 172, 243);
+    background: rgb(17, 129, 194);
     align-items: center;
 }
 .menubar {
@@ -18,10 +18,11 @@
 }
 .component {
     height: 75%;
+    padding: 1rem;
 }
 .footer {
     height: 5%;
-    background: rgb(111, 172, 243);
+    background: rgb(17, 129, 194);
     display: flex;
     align-items: center;
     justify-content: center;
