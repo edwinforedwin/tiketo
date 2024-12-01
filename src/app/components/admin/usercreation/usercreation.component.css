@@ -30,4 +30,7 @@ label {
 ::ng-deep .p-button {
     font-family: 'Trebuchet MS';
 }
+::ng-deep .p-toast {
+    font-family: 'Trebuchet MS';
+}
 

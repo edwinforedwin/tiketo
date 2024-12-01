@@ -1,34 +1,35 @@
 <div class="container">
+    <p-toast position="bottom-right"/>
     <div class="section one">
         User Creation
     </div>
     <div class="section two">
         <div>
             <p-floatLabel>
-                <input type="text" pInputText id="userfullname"/>
+                <input type="text" pInputText id="userfullname" [(ngModel)]="fullname"/>
                 <label for="userfullname">Full Name</label>
             </p-floatLabel>
         </div>
         <div>
             <p-floatLabel>
-                <input type="text" pInputText id="useraddress" [style]="{width:'25rem'}"/>
+                <input type="text" pInputText id="useraddress" [style]="{width:'25rem'}" [(ngModel)] = 'address'/>
                 <label for="useraddress">Address</label>
             </p-floatLabel>
         </div>
         <div>
             <p-floatLabel>
-                <input type="text" pInputText id="useremail" [style]="{width:'18rem'}"/>
+                <input type="text" pInputText id="useremail" [style]="{width:'18rem'}" [(ngModel)]="email"/>
                 <label for="useremail">Email</label>
             </p-floatLabel>
         </div>
         <div>
             <p-floatLabel>
-                <input type="text" pInputText id="userphone"/>
+                <input type="text" pInputText id="userphone" [(ngModel)]="phone"/>
                 <label for="userphone">Mobile Number</label>
             </p-floatLabel>
         </div>
     </div>
     <div class="section three">
-        <p-button label="Create"/>
+        <p-button label="Create" (onClick)="createUser()"/>
     </div>
 </div>
