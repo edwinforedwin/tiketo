@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { ButtonModule } from 'primeng/button';
 import { InputTextModule } from 'primeng/inputtext';
 
@@ -12,5 +13,8 @@ import { InputTextModule } from 'primeng/inputtext';
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
-
+  constructor(private router:Router){}
+  login() {
+    this.router.navigateByUrl('adminhome')
+  }
 }
